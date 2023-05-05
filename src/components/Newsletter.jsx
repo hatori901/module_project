@@ -12,11 +12,8 @@ export default function Newsletter() {
                     <p className="mx-auto mt-2 max-w-xl text-left text-lg leading-8 text-black font-bold font-mono">
                         we stay up to date on the latest term sheets, twitter drama, and news stories so you don{"'"}t have to
                     </p>
-                    <div className="w-full lg:w-1/3 py-2 px-2 mt-10 mx-auto bg-gradient-to-r from-red-200 to-blue-400">
+                    <div className="w-full lg:w-1/2 py-2 px-2 mt-10 mx-auto bg-gradient-to-r from-red-200 to-sky-400">
                         <form className="mx-auto flex gap-x-4">
-                            <label htmlFor="email-address" className="sr-only">
-                                Email address
-                            </label>
                             <input
                                 id="email-address"
                                 name="email"
@@ -24,17 +21,16 @@ export default function Newsletter() {
                                 autoComplete="email"
                                 required
                                 className="w-full flex-auto border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
-                                placeholder="Enter your email"
                             />
                             <button
                                 type="submit"
-                                className="flex-none w-[200px] px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm"
+                                className="flex-none w-[100px] md:w-[200px] px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm"
                             >
                                 Try It
                             </button>
                         </form>
                     </div>
-                    <div className="w-full lg:w-1/3 mx-auto my-10 font-mono flex items-center justify-around">
+                    <div className="w-full lg:w-1/2 mx-auto my-10 font-mono flex items-center justify-around">
                         <div>
                             important News
                         </div>
