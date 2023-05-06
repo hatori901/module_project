@@ -1,8 +1,8 @@
-export default function Newsletter() {
+export default function Subscription() {
     return (
-        <div className="bg-white py-8 sm:py-10">
-            <div className="mx-auto sm:px-6 lg:px-8">
-                <div className="relative isolate overflow-hidden bg-yellow-200 px-6 py-24 shadow-2xl sm:px-24 xl:py-32">
+        <section className="bg-white">
+            <div className="mx-auto">
+                <div className="relative isolate overflow-hidden bg-yellow-200 px-6 py-24 sm:px-24 xl:py-32">
                     <h2 className="uppercase mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-black sm:text-2xl my-2">
                         SIGN UP
                     </h2>
@@ -43,6 +43,6 @@ export default function Newsletter() {
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
 }
