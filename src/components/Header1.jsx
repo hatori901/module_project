@@ -1,14 +1,18 @@
 
-export default function Hero1() {
+export default function Header1() {
 
     return (
         <section className="bg-black">
-            <div className="relative isolate pt-14">
-                <div className="mx-auto max-w-7xl px-6 py-16 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
+            <div className="mx-auto max-w-7xl relative isolate pt-14">
+                <div className="text-white">
+                    <span className="text-red-400">Creator Economy</span> by Peter Yang
+                </div>
+                <div className="px-6 py-16 sm:py-24 lg:flex lg:items-center lg:gap-x-10 lg:px-8">
                     <div className="mx-auto max-w-2xl lg:mx-0 lg:flex-auto">
                         <h1 className="mt-10 max-w-lg text-3xl font-bold tracking-tight text-white sm:text-4xl">
                             Level up your product skills and build a thriving creator business
                         </h1>
+
                         <p className="mt-6 text-lg leading-8 text-gray-200">
                             FREE BONUS: Get my {'"'}10 Top Lessons for Creators and Product Leaders{'"'} when you sign up
                         </p>

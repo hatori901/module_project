@@ -1,48 +1,60 @@
-export default function Subscription() {
+export default function Footer1() {
     return (
-        <section className="bg-white">
-            <div className="mx-auto">
-                <div className="relative isolate overflow-hidden bg-yellow-200 px-6 py-24 sm:px-24 xl:py-32">
-                    <h2 className="uppercase mx-auto max-w-2xl text-center text-3xl font-bold tracking-tight text-black sm:text-2xl my-2">
-                        SIGN UP
-                    </h2>
-                    <h1 className="uppercase mx-auto max-w-2xl text-center text-6xl font-bold tracking-tight text-black sm:text-6xl my-2">
-                        GIVE IT A TRY
-                    </h1>
-                    <p className="mx-auto mt-2 max-w-xl text-left text-lg leading-8 text-black font-bold font-mono">
-                        we stay up to date on the latest term sheets, twitter drama, and news stories so you don{"'"}t have to
-                    </p>
-                    <div className="w-full lg:w-1/2 py-2 px-2 mt-10 mx-auto bg-gradient-to-r from-red-200 to-sky-400">
-                        <form className="mx-auto flex gap-x-4">
-                            <input
-                                id="email-address"
-                                name="email"
-                                type="email"
-                                autoComplete="email"
-                                required
-                                className="w-full flex-auto border-0 bg-white px-3.5 py-2 text-white shadow-sm ring-1 ring-inset ring-white/10 focus:ring-2 focus:ring-inset focus:ring-white sm:text-sm sm:leading-6"
-                            />
+        <footer className="bg-white" aria-labelledby="footer-heading">
+            <div className="mx-auto max-w-7xl px-6 pb-8 sm:pt-24 lg:px-8">
+                <div className="pt-8 lg:flex lg:items-center lg:justify-between">
+                    <div>
+                        <img src="/vercel.svg" alt="logo" className="h-20 w-20" />
+                        <p className="mt-2 text-sm leading-6 text-gray-600">
+                            Workspaces of inspiring creatives, sent every Saturday and Sunday morning.
+                        </p>
+                    </div>
+                    <form className="mt-6 sm:flex sm:max-w-md lg:mt-0">
+                        <label htmlFor="email-address" className="sr-only">
+                            Email address
+                        </label>
+                        <input
+                            type="email"
+                            name="email-address"
+                            id="email-address"
+                            autoComplete="email"
+                            required
+                            className="w-full min-w-0 appearance-none rounded-md border-0 bg-white px-3 py-1.5 text-base text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-black sm:w-56 sm:text-sm sm:leading-6"
+                            placeholder="Enter your email"
+                        />
+                        <div className="mt-4 sm:ml-4 sm:mt-0 sm:flex-shrink-0">
                             <button
                                 type="submit"
-                                className="flex-none w-[100px] md:w-[200px] px-3.5 py-2.5 text-sm font-semibold text-gray-900 shadow-sm"
+                                className="flex w-full items-center justify-center rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-gray-900 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
                             >
-                                Try It
+                                Subscribe for free
                             </button>
-                        </form>
+                        </div>
+                    </form>
+                </div>
+                <div className="mt-8 border-t border-gray-900/10 pt-8 md:flex md:items-center md:justify-between">
+                    <div className="flex space-x-6 md:order-1 text-gray-500 text-xs">
+                        <a href="">
+                            Spaces
+                        </a>
+                        <a href="">
+                            About
+                        </a>
+                        <a href="">
+                            Submit a Workspace
+                        </a>
+                        <a href="">
+                            RSS
+                        </a>
                     </div>
-                    <div className="w-full lg:w-1/2 mx-auto my-10 font-mono flex items-center justify-around">
-                        <div>
-                            important News
-                        </div>
-                        <div>
-                            Helpful resources
-                        </div>
-                        <div>
-                            bad vibes
-                        </div>
+                    <div className="uppercase text-gray-500 text-md md:order-2">
+                        Published by Loops
                     </div>
+                    <p className="mt-8 text-xs leading-5 text-gray-500 md:order-3 md:mt-0">
+                        &copy; 2023 Workspaces, Inc. All rights reserved.
+                    </p>
                 </div>
             </div>
-        </section>
+        </footer>
     )
 }

@@ -4,11 +4,11 @@ export default function Partner1() {
             <div className="bg-gray-300 py-10 sm:py-16">
                 <div className="mx-auto max-w-7xl px-6 lg:px-8">
                     <div className="flex items-center">
-                        <div className="mx-5">
+                        <div className="mx-5 w-[200px]">
                             readers from :
                         </div>
-                        <div className="marquee">
-                            <div className="marquee__inner overflow-x-hidden mx-auto flex max-w-lg items-center sm:max-w-xl lg:mx-0 lg:max-w-none">
+                        <div className="marquee w-full">
+                            <div className="marquee__inner overflow-x-hidden mx-auto flex  items-center sm:max-w-xl lg:mx-0 lg:max-w-none">
                                 <img
                                     className="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                                     src="https://tailwindui.com/img/logos/158x48/transistor-logo-gray-900.svg"
