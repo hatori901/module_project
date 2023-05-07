@@ -1,17 +1,15 @@
-import Header1 from '@/components/Header1'
-import Testimonals1 from '@/components/Testimonals1'
-import Header2 from '@/components/Header2'
-import Partners1 from '@/components/Partners1'
-import Subscription1 from '@/components/Subscription1'
+import AboutUs1 from "@/components/AboutUs1"
+import Testimonials3 from "@/components/Testimonials3"
+import Subscription2 from "@/components/Subscription2"
+import Subscription3 from "@/components/Subscription3"
 
-export default function Home() {
+export default function page() {
   return (
     <main className="flex flex-col overflow-x-hidden">
-      <Header1 />
-      <Testimonals1 />
-      <Header2 />
-      <Partners1 />
-      <Subscription1 />
+      <AboutUs1 />
+      <Testimonials3 />
+      <Subscription2 />
+      <Subscription3 />
     </main>
   )
 }
